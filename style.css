@@ -1,6 +1,32 @@
-/*Font sizes*/
+/* Font sizes */
+.font-size-10 {
+    font-size: 10px;
+}
+
 .font-size-11 {
     font-size: 11px;
+}
+
+.font-size-13 {
+    font-size: 13px;
+}
+
+.font-size-26 {
+    font-size: 26px;
+}
+
+/* Generali */
+
+.text-blue {
+    color: #0072CE;
+}
+
+.text-gray, .text-grey {
+    color: #727272;
+}
+
+section[id*='jumbo'] .container.first {
+    height: 400px;
 }
 
 a {
@@ -8,7 +34,7 @@ a {
 }
 
 .button {
-    padding: 0.3rem 0.7rem 0.4rem 0.7rem;
+    padding: 0.3rem 0.6rem 0.4rem 0.6rem;
     border-radius: 50px;
 }
 
@@ -16,6 +42,13 @@ a {
     background-color: #CD3D0F;
     color: white;
 }
+
+.button.blue {
+    background-color: #2D64E6;
+    color: white;
+}
+
+/* Header */
 
 .header-top-bar {
     width: 100%;
@@ -26,9 +59,7 @@ header #sony-logo {
     height: 9px;
 }
 
-section[id*='jumbo'] .container.first {
-    height: 400px;
-}
+/* Jumbo-1 */
 
 #jumbo-1 .container.first {
     background-image: url(img/jumbo-bg.png);
@@ -49,3 +80,16 @@ section[id*='jumbo'] .container.first {
     border: 2px solid white;
     box-shadow: 0 0 0 0px white, 0 0 0 1.5px #0072CE;
 }
+
+/* PlayStation 5 */
+
+#playstation-5 .container .row .active {
+    border-bottom: 1.5px solid #0072CE;
+}
+
+
+/**/
+
+/**/
+
+/**/
