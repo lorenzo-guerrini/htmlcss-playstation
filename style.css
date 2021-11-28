@@ -26,16 +26,26 @@ header #sony-logo {
     height: 9px;
 }
 
-section[id*='jumbo'] .container:first-of-type {
+section[id*='jumbo'] .container.first {
     height: 400px;
 }
 
-#jumbo-1 .container:first-of-type {
+#jumbo-1 .container.first {
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
     background-position: center
 }
 
-#jumbo-1 .container:first-of-type img {
+#jumbo-1 .container.first img {
     width: 180px;
+}
+
+#jumbo-1 .container.second img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#jumbo-1 .container.second .active {
+    border: 2px solid white;
+    box-shadow: 0 0 0 0px white, 0 0 0 1.5px #0072CE;
 }
