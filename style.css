@@ -1,3 +1,22 @@
+/*Font sizes*/
+.font-size-11 {
+    font-size: 11px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    padding: 0.3rem 0.7rem 0.4rem 0.7rem;
+    border-radius: 50px;
+}
+
+.button.orange {
+    background-color: #CD3D0F;
+    color: white;
+}
+
 .header-top-bar {
     width: 100%;
     background-color: black;
@@ -5,4 +24,18 @@
 
 header #sony-logo {
     height: 9px;
+}
+
+section[id*='jumbo'] .container:first-of-type {
+    height: 400px;
+}
+
+#jumbo-1 .container:first-of-type {
+    background-image: url(img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center
+}
+
+#jumbo-1 .container:first-of-type img {
+    width: 180px;
 }
