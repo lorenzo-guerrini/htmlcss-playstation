@@ -183,12 +183,6 @@ header #sony-logo {
     background-color: #161C3B;
 }
 
-#mini-jumbo-2 .container .row, 
-#mini-jumbo-2 .container .row .left, 
-#mini-jumbo-2 .container .row .right {
-    height: 100%;
-}
-
 #mini-jumbo-2 .container .row .right {
     display: none;
 }
