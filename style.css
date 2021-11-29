@@ -47,6 +47,12 @@ section[id*='jumbo'] .container-fluid.first {
     height: 400px;
 }
 
+@media (min-width: 768px) {
+    section[id*='jumbo'] .container-fluid.first {
+        height: 450px;
+    }
+}
+
 section[id*='mini-jumbo'] .container {
     height: 200px;
 }
@@ -107,8 +113,18 @@ header #sony-logo {
 }
 
 /* PlayStation 5 */
-#playstation-5 .container .row .active {
+#playstation-5 .container-fluid .row .active {
     border-bottom: 1.5px solid #0072CE;
+}
+
+#playstation-5 .container-fluid .row .item-description {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #playstation-5 .container-fluid .row .item-description {
+        display: block;
+    }
 }
 
 /* Jumbo-2 */
@@ -121,7 +137,6 @@ header #sony-logo {
 #jumbo-2 .container-fluid.first img {
     width: 60%;
 }
-
 
 /* Nuove Uscite */
 #nuove-uscite {
