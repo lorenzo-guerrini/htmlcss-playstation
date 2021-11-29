@@ -5,10 +5,21 @@
 
 .font-size-11 {
     font-size: 11px;
+    line-height: 15px;
 }
 
 .font-size-13 {
     font-size: 13px;
+    line-height: 20px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.font-size-21 {
+    font-size: 21px;
 }
 
 .font-size-26 {
@@ -69,7 +80,6 @@ header #sony-logo {
 }
 
 #jumbo-1 .container.second img {
-    width: 100%;
     border-radius: 10px;
 }
 
@@ -93,6 +103,25 @@ header #sony-logo {
 #jumbo-2 .container.first img {
     width: 60%;
 }
+
+
+/* Nuove Uscite */
+#nuove-uscite .container {
+    color: white;
+    background-color: #1F1F1F;
+}
+
+#nuove-uscite .container img {
+    border-radius: 15px;
+}
+
+
+/**/
+
+/**/
+
+/**/
+
 /**/
 
 /**/
