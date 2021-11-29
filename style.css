@@ -43,7 +43,7 @@ ul {
     color: #727272;
 }
 
-section[id*='jumbo'] .container.first {
+section[id*='jumbo'] .container-md.first {
     height: 400px;
 }
 
@@ -86,13 +86,14 @@ header #sony-logo {
 }
 
 /* Jumbo-1 */
-#jumbo-1 .container.first {
+
+#jumbo-1 .container-md.first {
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
     background-position: center
 }
 
-#jumbo-1 .container.first img {
+#jumbo-1 .container-md.first img {
     width: 60%;
 }
 
@@ -111,13 +112,13 @@ header #sony-logo {
 }
 
 /* Jumbo-2 */
-#jumbo-2 .container.first {
+#jumbo-2 .container-md.first {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center
 }
 
-#jumbo-2 .container.first img {
+#jumbo-2 .container-md.first img {
     width: 60%;
 }
 
