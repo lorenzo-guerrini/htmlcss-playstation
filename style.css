@@ -31,6 +31,10 @@
 }
 
 /* Generali */
+
+ul {
+    list-style: none;
+}
 .text-blue {
     color: #0072CE;
 }
@@ -149,6 +153,15 @@ header #sony-logo {
 footer {
     background-color: #00439C;
 }
-/**/
 
-/**/
+footer .container .row .col.top {
+    line-height: 22px;
+}
+
+footer .container .row .col.bottom img {
+    width: 100px;
+}
+
+footer .container .row .col.bottom a {
+    text-decoration: underline;
+}
