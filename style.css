@@ -120,7 +120,6 @@ header #sony-logo {
 
 /* Nuove Uscite */
 #nuove-uscite {
-    color: white;
     background-color: #1F1F1F;
 }
 
@@ -128,16 +127,23 @@ header #sony-logo {
     border-radius: 15px;
 }
 
-/**/
+/* Mini Jummbo 1 (PlayStation Plus) */
 #mini-jumbo-1 {
     background-color: #BEBCBB;
 }
 
-#mini-jumbo-1 .container .row .col.left img{
+#mini-jumbo-1 .container .row .col.left img {
     width: 60%;
 }
 
-/**/
+/* Mini Jummbo 2 (PlayStation Now) */
+#mini-jumbo-2 {
+    background-color: #161C3B;
+}
+
+#mini-jumbo-2 .container .row .col.left img {
+    width: 60%;
+}
 
 /**/
 
