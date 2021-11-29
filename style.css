@@ -43,6 +43,10 @@ section[id*='jumbo'] .container.first {
     height: 400px;
 }
 
+section[id*='mini-jumbo'] .container {
+    height: 200px;
+}
+
 a {
     text-decoration: none;
 }
@@ -60,6 +64,11 @@ a {
 .button.blue {
     background-color: #2D64E6;
     color: white;
+}
+
+.button.begie {
+    color: #2D64E6;
+    background-color: #D9DADC;
 }
 
 /* Header */
@@ -122,6 +131,10 @@ header #sony-logo {
 /**/
 #mini-jumbo-1 {
     background-color: #BEBCBB;
+}
+
+#mini-jumbo-1 .container .row .col.left img{
+    width: 60%;
 }
 
 /**/
