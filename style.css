@@ -57,6 +57,18 @@ section[id*='mini-jumbo'] .container {
     height: 200px;
 }
 
+@media (min-width: 768px) {
+    section[id*='mini-jumbo'] .container {
+        height: 160px;
+    }
+}
+
+@media (min-width: 992px) {
+    section[id*='mini-jumbo'] .container {
+        height: 270px;
+    } 
+}
+
 a {
     text-decoration: none;
 }
@@ -79,6 +91,10 @@ a {
 .button.begie {
     color: #2D64E6;
     background-color: #D9DADC;
+}
+
+.w-60 {
+    width: 60%;
 }
 
 /* Header */
@@ -152,17 +168,23 @@ header #sony-logo {
     background-color: #BEBCBB;
 }
 
-#mini-jumbo-1 .container .row .col.left img {
-    width: 60%;
+#mini-jumbo-1 .container .row, #mini-jumbo-1 .container .row .left, #mini-jumbo-1 .container .row .right {
+    height: 100%;
+}
+
+#mini-jumbo-1 .container .row .right {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #mini-jumbo-1 .container .row .right {
+        display: block;
+    }
 }
 
 /* Mini Jummbo 2 (PlayStation Now) */
 #mini-jumbo-2 {
     background-color: #161C3B;
-}
-
-#mini-jumbo-2 .container .row .col.left img {
-    width: 60%;
 }
 
 /**/
