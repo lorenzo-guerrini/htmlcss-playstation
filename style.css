@@ -16,7 +16,6 @@
 }
 
 /* Generali */
-
 .text-blue {
     color: #0072CE;
 }
@@ -49,7 +48,6 @@ a {
 }
 
 /* Header */
-
 .header-top-bar {
     width: 100%;
     background-color: black;
@@ -60,7 +58,6 @@ header #sony-logo {
 }
 
 /* Jumbo-1 */
-
 #jumbo-1 .container.first {
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
@@ -68,7 +65,7 @@ header #sony-logo {
 }
 
 #jumbo-1 .container.first img {
-    width: 180px;
+    width: 60%;
 }
 
 #jumbo-1 .container.second img {
@@ -82,14 +79,20 @@ header #sony-logo {
 }
 
 /* PlayStation 5 */
-
 #playstation-5 .container .row .active {
     border-bottom: 1.5px solid #0072CE;
 }
 
+/* Jumbo-2 */
+#jumbo-2 .container.first {
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: center
+}
 
-/**/
-
+#jumbo-2 .container.first img {
+    width: 60%;
+}
 /**/
 
 /**/
