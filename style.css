@@ -115,10 +115,6 @@ header #sony-logo {
     background-position: center
 }
 
-#jumbo-1 .container-fluid.first img {
-    width: 60%;
-}
-
 #jumbo-1 .container.second img {
     border-radius: 10px;
 }
@@ -148,10 +144,6 @@ header #sony-logo {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center
-}
-
-#jumbo-2 .container-fluid.first img {
-    width: 60%;
 }
 
 /* Nuove Uscite */
