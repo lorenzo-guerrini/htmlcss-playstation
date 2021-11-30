@@ -1,3 +1,128 @@
+/*Header*/
+.navbar {
+    background-color: white !important;
+}
+
+.dropdown {
+    position:static !important;
+}
+
+.dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top: 0px !important;
+    width: 100% !important;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none !important;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.dropdown-menu .dropdown-item {
+    display: inline-block;
+    width: auto;
+}
+
+.dropdown-menu .dropdown-item::before {
+    content: "\2022";
+    color: #0070D1;
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.menu-items {
+    display: flex; 
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-right .button{
+    max-width: 50%;
+    text-align: center;
+}
+
+.search {
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.search img {
+    width: 20px;
+}
+
+.dropdown img {
+    margin-left: 5px;
+    width: 5px;
+}
+
+.my-dt-closed {
+    display: block;
+    padding-top: 3px;
+}
+
+.my-dt-open {
+    display: none;
+    transform: rotate(180deg);
+    padding-bottom: 3px;
+}
+
+#navbarDropdownMenuLink.show .my-dt-closed {
+    display: none;
+}
+
+#navbarDropdownMenuLink.show .my-dt-open {
+    display: block;
+}
+
+
+
+@media (min-width: 992px) {
+    .dropdown-menu {
+        border-top: none;
+        border-bottom: none;
+        text-align: center;
+    }
+
+    .menu-items {
+        justify-content: center;
+    }
+
+    .navbar-right {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .search {
+        border: none;
+    }
+}
+
+
+.dropdown-items {
+    border-top: 1px solid lightgray;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 90px;
+    color: black;
+}
+
+.menu-item img {
+    width: 50px;
+}
+
+
+
+
+
 /* Font sizes */
 .font-size-10 {
     font-size: 10px;
@@ -53,22 +178,6 @@ section[id*='jumbo'] .container-fluid.first {
     }
 }
 
-/* section[id*='mini-jumbo'] .container {
-    height: 200px;
-}
-
- @media (min-width: 768px) {
-    section[id*='mini-jumbo'] .container {
-        height: 160px;
-    }
-}
-
-@media (min-width: 992px) {
-    section[id*='mini-jumbo'] .container {
-        height: 270px;
-    } 
-}  */
-
 a {
     text-decoration: none;
 }
@@ -91,6 +200,11 @@ a {
 .button.begie {
     color: #2D64E6;
     background-color: #D9DADC;
+}
+
+.button.black {
+    color: white;
+    background-color: #363636;
 }
 
 .w-60 {
