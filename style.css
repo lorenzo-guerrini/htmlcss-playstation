@@ -135,7 +135,7 @@ section[id*='jumbo'] .container-xxl.first {
 }
 
 .my-navbar {
-    background-color: white;
+    background-color: white !important;
 }
 
 .my-navbar-toggler {
