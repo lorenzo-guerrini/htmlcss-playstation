@@ -13,7 +13,7 @@ header #sony-logo {
 }
 
 .dropdown {
-    position:static !important;
+    position: static !important;
 }
 
 .dropdown-menu {
@@ -121,6 +121,7 @@ header #sony-logo {
 
 .dropdown-items {
     border-top: 1px solid lightgray;
+
 }
 
 .dropdown-item:hover {
@@ -198,12 +199,12 @@ ul {
     color: #727272;
 }
 
-section[id*='jumbo'] .container-fluid.first {
+section[id*='jumbo'] .container-xxl.first {
     height: 400px;
 }
 
 @media (min-width: 768px) {
-    section[id*='jumbo'] .container-fluid.first {
+    section[id*='jumbo'] .container-xxl.first {
         height: 450px;
     }
 }
@@ -275,7 +276,7 @@ a {
 
 /* Jumbo-1 */
 
-#jumbo-1 .container-fluid.first {
+#jumbo-1 .jumbo-background {
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
@@ -301,17 +302,17 @@ a {
 }
 
 /* PlayStation 5 */
-#playstation-5 .container-fluid .row .active {
+#playstation-5 .container-xxl .row .active {
     border-bottom: 1.5px solid #0072CE;
     cursor: pointer;
 }
 
-#playstation-5 .container-fluid .row .item-description {
+#playstation-5 .container-xxl .row .item-description {
     display: none;
 }
 
 @media (min-width: 768px) {
-    #playstation-5 .container-fluid .row .item-description {
+    #playstation-5 .container-xxl .row .item-description {
         display: block;
     }
 }
@@ -328,7 +329,7 @@ a {
 
 
 /* Jumbo-2 */
-#jumbo-2 .container-fluid.first {
+#jumbo-2 .jumbo-background {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center
