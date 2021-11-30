@@ -1,83 +1,167 @@
+/* Generali */
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+section[id*='jumbo'] .container-xxl.first {
+    height: 400px;
+}
+
+@media (min-width: 768px) {
+    section[id*='jumbo'] .container-xxl.first {
+        height: 450px;
+    }
+}
+
+.my-cursor-pointer {
+    cursor: pointer;
+}
+
+.my-w-60 {
+    width: 60%;
+}
+
+/*Bottoni*/
+.my-button {
+    padding: 0.25rem 0.6rem 0.35rem 0.6rem;
+    border: 1.5px solid;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.my-button.black {
+    background-color: #363636;
+    color: white;
+    border-color: #363636;
+}
+
+.my-button.black:hover {
+    box-shadow: inset 0 0 0px white, inset 0 0 0 1px white;
+}
+
+.my-button.orange {
+    background-color: #CD3D0F;
+    color: white;
+    border-color: #CD3D0F;
+}
+
+.my-button.orange:hover {
+    box-shadow: inset 0 0 0px black, inset 0 0 0 1px black;
+}
+
+.my-button.blue {
+    background-color: #2D64E6;
+    color: white;
+    border-color: #2D64E6;
+}
+
+.my-button.blue:hover {
+    box-shadow: inset 0 0 0px white, inset 0 0 0 1px white;
+}
+
+.my-button.begie {
+    background-color: #D9DADC;
+    color: #2D64E6;
+    border-color: #D9DADC;
+}
+
+.my-button.begie:hover {
+    box-shadow: 0 0 0px #C8C9CA, 0 0 0 2px #C8C9CA;
+}
+
+.my-button.white {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.my-button.white:hover {
+    box-shadow: inset 0 0 0px #161C3B, inset 0 0 0 1px #161C3B;
+}
+
+/*Colori testo*/
+.my-text-blue {
+    color: #0072CE;
+}
+
+.my-text-gray, .my-text-grey {
+    color: #727272;
+}
+
+/* Font sizes */
+.my-font-size-10 {
+    font-size: 10px;
+}
+
+.my-font-size-11 {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.my-font-size-13 {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.my-font-size-16 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.my-font-size-21 {
+    font-size: 21px;
+}
+
+.my-font-size-25 {
+    font-size: 25px;
+}
+
+.my-font-size-26 {
+    font-size: 26px;
+}
+
 /*Header*/
-.header-top-bar {
+.my-header-top-bar {
     width: 100%;
     background-color: black;
 }
 
-header #sony-logo {
+.my-header-top-bar #sony-logo {
     height: 9px;
 }
 
-.navbar {
-    background-color: white !important;
+.my-navbar {
+    background-color: white;
 }
 
-.dropdown {
-    position: static !important;
+.my-navbar-toggler {
+    padding: 2px 8px;
+    font-size: 14px;
 }
 
-.dropdown-menu {
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
-    margin-top: 0px !important;
-    width: 100% !important;
-    border: 0;
-    border-radius: 0;
-    box-shadow: none !important;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-}
-.dropdown-menu .dropdown-item {
-    display: inline-block;
-    width: auto;
+.my-dropdown {
+    position: static;
 }
 
-.dropdown-menu .dropdown-item::before {
-    content: "\2022";
-    color: #0070D1;
-    font-weight: bold; 
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-}
-
-.dropdown .nav-link:hover .dropdown-name {
-    color: #2D64E6;
-}
-
-.menu-items {
-    display: flex; 
-}
-
-.navbar-right {
-    display: flex;
-    flex-direction: column;
-}
-
-.navbar-right .button{
-    max-width: 50%;
-    text-align: center;
-}
-
-.search {
-    border: 1px solid lightgray;
-    cursor: pointer;
-}
-
-.search img {
-    width: 20px;
-}
-
-.dropdown img {
+.my-dropdown img {
     margin-left: 5px;
     width: 5px;
 }
 
-.my-dt-closed {
+.my-dropdown .my-dropdown-name:hover {
+    color: #2D64E6;
+}
+
+.my-dropdown .my-dt-closed {
     display: block;
     padding-top: 3px;
 }
 
-.my-dt-open {
+.my-dropdown .my-dt-open {
     display: none;
     transform: rotate(180deg);
     padding-bottom: 3px;
@@ -91,45 +175,36 @@ header #sony-logo {
     display: block;
 }
 
-.navbar-toggler {
-    padding: 2px 8px;
-    font-size: 14px;
-}
-
-
-@media (min-width: 992px) {
-    .dropdown-menu {
-        border-top: none;
-        border-bottom: none;
-        text-align: center;
-    }
-
-    .menu-items {
-        justify-content: center;
-    }
-
-    .navbar-right {
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .search {
-        border: none;
-    }
-}
-
-
-.dropdown-items {
+.my-dropdown-menu {
+    margin-top: 0px;
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
     border-top: 1px solid lightgray;
-
+    border-bottom: 1px solid lightgray;
+    transform: translate(0, -2px);
 }
 
-.dropdown-item:hover {
-    background-color: white;
-    color: #2D64E6;
+.my-dropdown-menu .my-dropdown-item {
+    display: inline-block;
+    width: auto;
 }
 
-.menu-item {
+.my-dropdown-menu .my-dropdown-item::before {
+    content: "\2022";
+    color: #0070D1;
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.my-menu-items {
+    display: flex; 
+}
+
+.my-menu-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,144 +214,66 @@ header #sony-logo {
     margin: 0 5px;
 }
 
-.menu-item:hover {
+.my-menu-item:hover {
     color: black;
     box-shadow: 1px 1px 5px #adadad;
 }
 
-.menu-item img {
+.my-menu-item img {
     width: 50px;
 }
 
+.my-dropdown-items {
+    border-top: 1px solid lightgray;
+}
 
+.my-dropdown-item:hover {
+    background-color: white;
+    color: #2D64E6;
+}
 
-.my-cursor-pointer {
+.my-navbar-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-navbar-right .my-button{
+    max-width: 50%;
+    text-align: center;
+}
+
+.my-search {
+    border: 1px solid lightgray;
     cursor: pointer;
 }
 
-/* Font sizes */
-.font-size-10 {
-    font-size: 10px;
+.my-search img {
+    width: 20px;
 }
 
-.font-size-11 {
-    font-size: 11px;
-    line-height: 15px;
-}
+@media (min-width: 992px) {
+    .my-dropdown-menu {
+        border-top: none;
+        border-bottom: none;
+        text-align: center;
+    }
 
-.font-size-13 {
-    font-size: 13px;
-    line-height: 20px;
-}
+    .my-menu-items {
+        justify-content: center;
+    }
 
-.font-size-16 {
-    font-size: 16px;
-    line-height: 18px;
-}
+    .my-navbar-right {
+        flex-direction: row;
+        align-items: center;
+    }
 
-.font-size-21 {
-    font-size: 21px;
-}
-
-.font-size-25 {
-    font-size: 25px;
-}
-
-.font-size-26 {
-    font-size: 26px;
-}
-
-/* Generali */
-
-ul {
-    list-style: none;
-}
-.text-blue {
-    color: #0072CE;
-}
-
-.text-gray, .text-grey {
-    color: #727272;
-}
-
-section[id*='jumbo'] .container-xxl.first {
-    height: 400px;
-}
-
-@media (min-width: 768px) {
-    section[id*='jumbo'] .container-xxl.first {
-        height: 450px;
+    .my-search {
+        border: none;
     }
 }
 
-a {
-    text-decoration: none;
-}
-
-.button {
-    padding: 0.25rem 0.6rem 0.35rem 0.6rem;
-    border: 1.5px solid;
-    border-radius: 50px;
-    transition: 0.5s;
-}
-
-.button.black {
-    background-color: #363636;
-    color: white;
-    border-color: #363636;
-}
-
-.button.black:hover {
-    box-shadow: inset 0 0 0px white, inset 0 0 0 1px white;
-}
-
-.button.orange {
-    background-color: #CD3D0F;
-    color: white;
-    border-color: #CD3D0F;
-}
-
-.button.orange:hover {
-    box-shadow: inset 0 0 0px black, inset 0 0 0 1px black;
-}
-
-.button.blue {
-    background-color: #2D64E6;
-    color: white;
-    border-color: #2D64E6;
-}
-
-.button.blue:hover {
-    box-shadow: inset 0 0 0px white, inset 0 0 0 1px white;
-}
-
-.button.begie {
-    background-color: #D9DADC;
-    color: #2D64E6;
-    border-color: #D9DADC;
-}
-
-.button.begie:hover {
-    box-shadow: 0 0 0px #C8C9CA, 0 0 0 2px #C8C9CA;
-}
-
-.button.white {
-    background-color: white;
-    color: black;
-    border-color: white;
-}
-
-.button.white:hover {
-    box-shadow: inset 0 0 0px #161C3B, inset 0 0 0 1px #161C3B;
-}
-
-.w-60 {
-    width: 60%;
-}
-
 /* Jumbo-1 */
-
-#jumbo-1 .jumbo-background {
+#jumbo-1 .my-jumbo-background {
     background-image: url(img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
@@ -287,7 +284,7 @@ a {
     border-radius: 10px;
 }
 
-#jumbo-1 .container.second .active {
+#jumbo-1 .container.second .my-active {
     border: 2px solid white;
     box-shadow: 0 0 0 0px white, 0 0 0 1.5px #0072CE;
 }
@@ -302,7 +299,7 @@ a {
 }
 
 /* PlayStation 5 */
-#playstation-5 .container-xxl .row .active {
+#playstation-5 .container-xxl .row .my-active {
     border-bottom: 1.5px solid #0072CE;
     cursor: pointer;
 }
@@ -311,25 +308,24 @@ a {
     display: none;
 }
 
+#playstation-5 .my-not-active {
+    opacity: 75%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#playstation-5 .my-not-active:hover {
+    opacity: 100%;
+}
+
 @media (min-width: 768px) {
     #playstation-5 .container-xxl .row .item-description {
         display: block;
     }
 }
 
-#playstation-5 .not-active {
-    opacity: 75%;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-#playstation-5 .not-active:hover {
-    opacity: 100%;
-}
-
-
 /* Jumbo-2 */
-#jumbo-2 .jumbo-background {
+#jumbo-2 .my-jumbo-background {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center
@@ -374,7 +370,7 @@ a {
     }
 }
 
-/**/
+/* Footer */
 footer {
     background-color: #00439C;
 }
